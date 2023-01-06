@@ -1,2 +1,2 @@
-# 4dof_robot_arm
+# 4DOF Robot Arm
 ROS for 4-dof robot arm simulation

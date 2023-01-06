@@ -1,0 +1,559 @@
+<?xml version="1.0"?>
+<robot name="my_robot">
+
+    <material name="darkcyan">
+        <color rgba="0.0392156862745098 0.5333333333333333 0.5411764705882353 1.0" />
+    </material>
+
+    <material name="darkforestgreen">
+        <color rgba="0.0 0.17647058823529413 0.01568627450980392 1.0" />
+    </material>
+
+    <material name="darkfuchsia">
+        <color rgba="0.615686274509804 0.027450980392156862 0.34901960784313724 1.0" />
+    </material>
+
+    <material name="darkgold">
+        <color rgba="0.7098039215686275 0.5803921568627451 0.06274509803921569 1.0" />
+    </material>
+
+    <material name="darkgrassgreen">
+        <color rgba="0.2196078431372549 0.5019607843137255 0.01568627450980392 1.0" />
+    </material>
+
+    <material name="darkgreen">
+        <color rgba="0.0196078431372549 0.28627450980392155 0.027450980392156862 1.0" />
+    </material>
+
+    <material name="darkgreenblue">
+        <color rgba="0.12156862745098039 0.38823529411764707 0.3411764705882353 1.0" />
+    </material>
+
+    <material name="darkgrey">
+        <color rgba="0.21176470588235294 0.21568627450980393 0.21568627450980393 1.0" />
+    </material>
+
+    <material name="darkgreyblue">
+        <color rgba="0.1607843137254902 0.27450980392156865 0.3568627450980392 1.0" />
+    </material>
+
+    <material name="darkhotpink">
+        <color rgba="0.8509803921568627 0.00392156862745098 0.4 1.0" />
+    </material>
+
+    <material name="darkindigo">
+        <color rgba="0.12156862745098039 0.03529411764705882 0.32941176470588235 1.0" />
+    </material>
+
+    <material name="darkishblue">
+        <color rgba="0.00392156862745098 0.2549019607843137 0.5098039215686274 1.0" />
+    </material>
+
+    <material name="darkishgreen">
+        <color rgba="0.1568627450980392 0.48627450980392156 0.21568627450980393 1.0" />
+    </material>
+
+    <material name="darkishpink">
+        <color rgba="0.8549019607843137 0.27450980392156865 0.49019607843137253 1.0" />
+    </material>
+
+    <material name="darkishpurple">
+        <color rgba="0.4588235294117647 0.09803921568627451 0.45098039215686275 1.0" />
+    </material>
+
+    <material name="darkishred">
+        <color rgba="0.6627450980392157 0.011764705882352941 0.03137254901960784 1.0" />
+    </material>
+
+    <material name="darkkhaki">
+        <color rgba="0.6078431372549019 0.5607843137254902 0.3333333333333333 1.0" />
+    </material>
+
+    <material name="darklavender">
+        <color rgba="0.5215686274509804 0.403921568627451 0.596078431372549 1.0" />
+    </material>
+
+    <material name="darklilac">
+        <color rgba="0.611764705882353 0.42745098039215684 0.6470588235294118 1.0" />
+    </material>
+
+    <material name="darklime">
+        <color rgba="0.5176470588235295 0.7176470588235294 0.00392156862745098 1.0" />
+    </material>
+
+    <material name="darklimegreen">
+        <color rgba="0.49411764705882355 0.7411764705882353 0.00392156862745098 1.0" />
+    </material>
+
+    <material name="darkmagenta">
+        <color rgba="0.5882352941176471 0.0 0.33725490196078434 1.0" />
+    </material>
+
+    <material name="darkmaroon">
+        <color rgba="0.23529411764705882 0.0 0.03137254901960784 1.0" />
+    </material>
+
+    <material name="darkmauve">
+        <color rgba="0.5294117647058824 0.2980392156862745 0.3843137254901961 1.0" />
+    </material>
+
+    <material name="darkmint">
+        <color rgba="0.2823529411764706 0.7529411764705882 0.4470588235294118 1.0" />
+    </material>
+
+    <material name="darkmintgreen">
+        <color rgba="0.12549019607843137 0.7529411764705882 0.45098039215686275 1.0" />
+    </material>
+
+    <material name="darkmustard">
+        <color rgba="0.6588235294117647 0.5372549019607843 0.0196078431372549 1.0" />
+    </material>
+
+    <material name="darknavy">
+        <color rgba="0.0 0.01568627450980392 0.20784313725490197 1.0" />
+    </material>
+
+    <material name="darknavyblue">
+        <color rgba="0.0 0.00784313725490196 0.1803921568627451 1.0" />
+    </material>
+
+    <material name="darkolive">
+        <color rgba="0.21568627450980393 0.24313725490196078 0.00784313725490196 1.0" />
+    </material>
+
+    <material name="darkolivegreen">
+        <color rgba="0.23529411764705882 0.30196078431372547 0.011764705882352941 1.0" />
+    </material>
+
+    <material name="darkorange">
+        <color rgba="0.7764705882352941 0.3176470588235294 0.00784313725490196 1.0" />
+    </material>
+
+    <material name="darkpastelgreen">
+        <color rgba="0.33725490196078434 0.6823529411764706 0.3411764705882353 1.0" />
+    </material>
+
+    <material name="darkpeach">
+        <color rgba="0.8705882352941177 0.49411764705882355 0.36470588235294116 1.0" />
+    </material>
+
+    <material name="darkperiwinkle">
+        <color rgba="0.4 0.37254901960784315 0.8196078431372549 1.0" />
+    </material>
+
+    <material name="darkpink">
+        <color rgba="0.796078431372549 0.2549019607843137 0.4196078431372549 1.0" />
+    </material>
+
+    <material name="darkplum">
+        <color rgba="0.24705882352941178 0.00392156862745098 0.17254901960784313 1.0" />
+    </material>
+
+    <material name="darkpurple">
+        <color rgba="0.20784313725490197 0.023529411764705882 0.24313725490196078 1.0" />
+    </material>
+
+    <material name="darkred">
+        <color rgba="0.5176470588235295 0.0 0.0 1.0" />
+    </material>
+
+    <material name="darkrose">
+        <color rgba="0.7098039215686275 0.2823529411764706 0.36470588235294116 1.0" />
+    </material>
+
+    <material name="darkroyalblue">
+        <color rgba="0.00784313725490196 0.023529411764705882 0.43529411764705883 1.0" />
+    </material>
+
+    <material name="darksage">
+        <color rgba="0.34901960784313724 0.5215686274509804 0.33725490196078434 1.0" />
+    </material>
+
+    <material name="darksalmon">
+        <color rgba="0.7843137254901961 0.35294117647058826 0.3254901960784314 1.0" />
+    </material>
+
+    <material name="darksand">
+        <color rgba="0.6588235294117647 0.5607843137254902 0.34901960784313724 1.0" />
+    </material>
+
+    <material name="darkseafoam">
+        <color rgba="0.12156862745098039 0.7098039215686275 0.47843137254901963 1.0" />
+    </material>
+
+    <material name="darkseafoamgreen">
+        <color rgba="0.24313725490196078 0.6862745098039216 0.4627450980392157 1.0" />
+    </material>
+
+    <material name="darkseagreen">
+        <color rgba="0.06666666666666667 0.5294117647058824 0.36470588235294116 1.0" />
+    </material>
+
+    <material name="darkskyblue">
+        <color rgba="0.26666666666666666 0.5568627450980392 0.8941176470588236 1.0" />
+    </material>
+
+    <material name="darkslateblue">
+        <color rgba="0.12941176470588237 0.2784313725490196 0.3803921568627451 1.0" />
+    </material>
+
+    <material name="darktan">
+        <color rgba="0.6862745098039216 0.5333333333333333 0.2901960784313726 1.0" />
+    </material>
+
+    <material name="darktaupe">
+        <color rgba="0.4980392156862745 0.40784313725490196 0.3058823529411765 1.0" />
+    </material>
+
+    <material name="darkteal">
+        <color rgba="0.00392156862745098 0.30196078431372547 0.3058823529411765 1.0" />
+    </material>
+
+    <material name="darkturquoise">
+        <color rgba="0.01568627450980392 0.3607843137254902 0.35294117647058826 1.0" />
+    </material>
+
+    <material name="darkviolet">
+        <color rgba="0.20392156862745098 0.00392156862745098 0.24705882352941178 1.0" />
+    </material>
+
+    <material name="darkyellow">
+        <color rgba="0.8352941176470589 0.7137254901960784 0.0392156862745098 1.0" />
+    </material>
+
+    <material name="darkyellowgreen">
+        <color rgba="0.4470588235294118 0.5607843137254902 0.00784313725490196 1.0" />
+    </material>
+
+    <material name="deepaqua">
+        <color rgba="0.03137254901960784 0.47058823529411764 0.4980392156862745 1.0" />
+    </material>
+
+    <material name="deepblue">
+        <color rgba="0.01568627450980392 0.00784313725490196 0.45098039215686275 1.0" />
+    </material>
+
+    <material name="deepbrown">
+        <color rgba="0.2549019607843137 0.00784313725490196 0.0 1.0" />
+    </material>
+
+    <material name="deepgreen">
+        <color rgba="0.00784313725490196 0.34901960784313724 0.058823529411764705 1.0" />
+    </material>
+
+    <material name="deeplavender">
+        <color rgba="0.5529411764705883 0.3686274509803922 0.7176470588235294 1.0" />
+    </material>
+
+    <material name="deeplilac">
+        <color rgba="0.5882352941176471 0.43137254901960786 0.7411764705882353 1.0" />
+    </material>
+
+    <material name="deepmagenta">
+        <color rgba="0.6274509803921569 0.00784313725490196 0.3607843137254902 1.0" />
+    </material>
+
+    <material name="deeporange">
+        <color rgba="0.8627450980392157 0.30196078431372547 0.00392156862745098 1.0" />
+    </material>
+
+    <material name="deeppink">
+        <color rgba="0.796078431372549 0.00392156862745098 0.3843137254901961 1.0" />
+    </material>
+
+    <material name="deeppurple">
+        <color rgba="0.21176470588235294 0.00392156862745098 0.24705882352941178 1.0" />
+    </material>
+
+    <material name="deepred">
+        <color rgba="0.6039215686274509 0.00784313725490196 0.0 1.0" />
+    </material>
+
+    <material name="deeprose">
+        <color rgba="0.7803921568627451 0.2784313725490196 0.403921568627451 1.0" />
+    </material>
+
+    <material name="deepseablue">
+        <color rgba="0.00392156862745098 0.32941176470588235 0.5098039215686274 1.0" />
+    </material>
+
+    <material name="deepskyblue">
+        <color rgba="0.050980392156862744 0.4588235294117647 0.9725490196078431 1.0" />
+    </material>
+
+    <material name="deepteal">
+        <color rgba="0.0 0.3333333333333333 0.35294117647058826 1.0" />
+    </material>
+
+    <material name="deepturquoise">
+        <color rgba="0.00392156862745098 0.45098039215686275 0.4549019607843137 1.0" />
+    </material>
+
+    <material name="deepviolet">
+        <color rgba="0.28627450980392155 0.023529411764705882 0.2823529411764706 1.0" />
+    </material>
+
+    <material name="denim">
+        <color rgba="0.23137254901960785 0.38823529411764707 0.5490196078431373 1.0" />
+    </material>
+
+    <material name="denimblue">
+        <color rgba="0.23137254901960785 0.3568627450980392 0.5725490196078431 1.0" />
+    </material>
+
+    <material name="desert">
+        <color rgba="0.8 0.6784313725490196 0.3764705882352941 1.0" />
+    </material>
+
+    <material name="diarrhea">
+        <color rgba="0.6235294117647059 0.5137254901960784 0.011764705882352941 1.0" />
+    </material>
+
+    <material name="dirt">
+        <color rgba="0.5411764705882353 0.43137254901960786 0.27058823529411763 1.0" />
+    </material>
+
+    <material name="dirtbrown">
+        <color rgba="0.5137254901960784 0.396078431372549 0.2235294117647059 1.0" />
+    </material>
+
+    <material name="dirtyblue">
+        <color rgba="0.24705882352941178 0.5098039215686274 0.615686274509804 1.0" />
+    </material>
+
+    <material name="dirtygreen">
+        <color rgba="0.4 0.49411764705882355 0.17254901960784313 1.0" />
+    </material>
+
+    <material name="dirtyorange">
+        <color rgba="0.7843137254901961 0.4627450980392157 0.023529411764705882 1.0" />
+    </material>
+
+    <material name="dirtypink">
+        <color rgba="0.792156862745098 0.4823529411764706 0.5019607843137255 1.0" />
+    </material>
+
+    <material name="dirtypurple">
+        <color rgba="0.45098039215686275 0.2901960784313726 0.396078431372549 1.0" />
+    </material>
+
+    <material name="dirtyyellow">
+        <color rgba="0.803921568627451 0.7725490196078432 0.0392156862745098 1.0" />
+    </material>
+
+    <material name="dodgerblue">
+        <color rgba="0.24313725490196078 0.5098039215686274 0.9882352941176471 1.0" />
+    </material>
+
+    <material name="drab">
+        <color rgba="0.5098039215686274 0.5137254901960784 0.26666666666666666 1.0" />
+    </material>
+
+    <material name="drabgreen">
+        <color rgba="0.4549019607843137 0.5843137254901961 0.3176470588235294 1.0" />
+    </material>
+
+    <material name="driedblood">
+        <color rgba="0.29411764705882354 0.00392156862745098 0.00392156862745098 1.0" />
+    </material>
+
+    <material name="duckeggblue">
+        <color rgba="0.7647058823529411 0.984313725490196 0.9568627450980393 1.0" />
+    </material>
+
+    <material name="dullblue">
+        <color rgba="0.28627450980392155 0.4588235294117647 0.611764705882353 1.0" />
+    </material>
+
+    <material name="dullbrown">
+        <color rgba="0.5294117647058824 0.43137254901960786 0.29411764705882354 1.0" />
+    </material>
+
+    <material name="dullgreen">
+        <color rgba="0.4549019607843137 0.6509803921568628 0.3843137254901961 1.0" />
+    </material>
+
+    <material name="dullorange">
+        <color rgba="0.8470588235294118 0.5254901960784314 0.23137254901960785 1.0" />
+    </material>
+
+    <material name="dullpink">
+        <color rgba="0.8352941176470589 0.5254901960784314 0.615686274509804 1.0" />
+    </material>
+
+    <link name="base">
+        <visual>
+            <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+            <geometry>
+                <box size="11.0 24.0 5.5" />
+            </geometry>
+            <material name="base_color">
+                <color rgba="255.0 255.0 0.0 1.0" />
+            </material>
+        </visual>
+
+    </link>
+    <joint name="base_2_joint" type="fixed">
+        <origin xyz="5.5 6.0 2.75" rpy="0.0 0.0 0.0" />
+        <parent link="base" />
+        <child link="base_link" />
+
+    </joint>
+    <link name="base_link">
+        <visual>
+            <origin xyz="-6 -11.0 1.75" rpy="0.0 0.0 0.0" />
+            <geometry>
+                <cylinder radius="3.0" length="3.0" />
+            </geometry>
+        </visual>
+    </link>
+    <joint name="base_arm_joint" type="revolute">
+        <origin xyz="-6 -11.0 0" rpy="0.0 0.0 0.0" />
+        <parent link="base_link" />
+        <child link="arm_1" />
+        <axis xyz="0.0 0.0 1.0" />
+        <limit lower="-1.57" upper="1.57" effort="3.0" velocity="3.0" />
+
+    </joint>
+    <link name="arm_1">
+        <visual>
+            <origin xyz="0 0 11.0" rpy="0.0 0.0 0" />
+            <geometry>
+                <cylinder radius="3" length="15.5" />
+            </geometry>
+            <material name="dullpink">
+            </material>
+        </visual>
+    </link>
+    <joint name="base_arm_joint_1" type="fixed">
+        <origin xyz="0 0 13.0" rpy="0.0 0 0" />
+        <parent link="arm_1" />
+        <child link="joint_2_model" />
+
+
+    </joint>
+    <link name="joint_2_model">
+        <visual>
+            <origin xyz="0 0 8" rpy="1.57 0 0" />
+            <geometry>
+                <cylinder radius="3" length="8.0" />
+            </geometry>
+            <material name="deepaqua">
+            </material>
+        </visual>
+    </link>
+    <joint name="base_arm_joint_2" type="revolute">
+        <origin xyz="0 0 8.0" rpy="0.0 0 0" />
+        <parent link="joint_2_model" />
+        <child link="arm_2" />
+        <axis xyz="0.0 1.0 0.0" />
+        <limit lower="-1.57" upper="1.57" effort="3.0" velocity="3.0" />
+
+    </joint>
+    <link name="arm_2">
+        <visual>
+            <origin xyz="0 0 8" rpy="0 0 0" />
+            <geometry>
+                <cylinder radius="3" length="12.0" />
+            </geometry>
+            <material name="darkfuchsia">
+            </material>
+        </visual>
+    </link>
+
+    <joint name="base_arm_joint_3" type="fixed">
+        <origin xyz="0 0 8" rpy="0.0 0.0 0.0" />
+        <parent link="arm_2" />
+        <child link="joint_3_model" />
+
+    </joint>
+    <link name="joint_3_model">
+        <visual>
+            <origin xyz="0 0 8" rpy="1.57 0 0" />
+            <geometry>
+                <cylinder radius="3" length="8.0" />
+            </geometry>
+            <material name="darkpink">
+            </material>
+        </visual>
+    </link>
+
+    <link name="arm_3">
+        <visual>
+            <origin xyz="0 0 8" rpy="0 0 0" />
+            <geometry>
+                <cylinder radius="3" length="12.0" />
+            </geometry>
+            <material name="dirtyyellow">
+            </material>
+        </visual>
+    </link>
+
+
+    <joint name="base_arm_joint_4" type="revolute">
+        <origin xyz="0 0 8.0" rpy="0.0 0 0" />
+        <parent link="joint_3_model" />
+        <child link="arm_3" />
+        <axis xyz="0.0 1.0 0.0" />
+        <limit lower="-1.57" upper="1.57" effort="3.0" velocity="3.0" />
+    </joint>
+
+    <link name="joint_4_model">
+        <visual>
+            <origin xyz="0 0 8" rpy="1.57 0 0" />
+            <geometry>
+                <cylinder radius="3" length="8.0" />
+            </geometry>
+            <material name="dirtygreen">
+            </material>
+        </visual>
+    </link>
+    <joint name="base_arm_joint_5" type="fixed">
+        <origin xyz="0 0 8.0" rpy="0.0 0 0" />
+        <parent link="arm_3" />
+        <child link="joint_4_model" />
+
+
+    </joint>
+
+    <link name="arm_4">
+        <visual>
+            <origin xyz="0 0 8" rpy="0 0 0" />
+            <geometry>
+                <cylinder radius="3" length="12.0" />
+            </geometry>
+            <material name="deepmagenta">
+            </material>
+        </visual>
+    </link>
+
+
+    <joint name="base_arm_joint_6" type="revolute">
+        <origin xyz="0 0 8.0" rpy="0.0 0 0" />
+        <parent link="joint_4_model" />
+        <child link="arm_4" />
+        <axis xyz="0.0 1.0 0.0" />
+        <limit lower="-1.57" upper="1.57" effort="3.0" velocity="3.0" />
+    </joint>
+
+
+
+    <link name="tool">
+        <visual>
+            <origin xyz="0 0 8" rpy="0 0 0" />
+            <geometry>
+                <sphere radius="3" />
+            </geometry>
+            <material name="darkforestgreen">
+            </material>
+        </visual>
+    </link>
+
+    <joint name="end_tool" type="fixed">
+        <origin xyz="0 0 8.0" rpy="0.0 0 0" />
+        <parent link="arm_4" />
+        <child link="tool" />
+
+
+    </joint>
+</robot>

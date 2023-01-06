@@ -1,0 +1,42 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/gazebo_msgs_generate_messages_py"
+  "/home/pan/Documents/arm_ws/devel/lib/python2.7/dist-packages/gazebo_msgs/msg/_ModelState.py"
+  "/home/pan/Documents/arm_ws/devel/lib/python2.7/dist-packages/gazebo_msgs/msg/_ContactsState.py"
+  "/home/pan/Documents/arm_ws/devel/lib/python2.7/dist-packages/gazebo_msgs/msg/_LinkState.py"
+  "/home/pan/Documents/arm_ws/devel/lib/python2.7/dist-packages/gazebo_msgs/msg/_WorldState.py"
+  "/home/pan/Documents/arm_ws/devel/lib/python2.7/dist-packages/gazebo_msgs/msg/_LinkStates.py"
+  "/home/pan/Documents/arm_ws/devel/lib/python2.7/dist-packages/gazebo_msgs/msg/_ContactState.py"
+  "/home/pan/Documents/arm_ws/devel/lib/python2.7/dist-packages/gazebo_msgs/msg/_ModelStates.py"
+  "/home/pan/Documents/arm_ws/devel/lib/python2.7/dist-packages/gazebo_msgs/msg/_ODEJointProperties.py"
+  "/home/pan/Documents/arm_ws/devel/lib/python2.7/dist-packages/gazebo_msgs/msg/_ODEPhysics.py"
+  "/home/pan/Documents/arm_ws/devel/lib/python2.7/dist-packages/gazebo_msgs/srv/_JointRequest.py"
+  "/home/pan/Documents/arm_ws/devel/lib/python2.7/dist-packages/gazebo_msgs/srv/_SetPhysicsProperties.py"
+  "/home/pan/Documents/arm_ws/devel/lib/python2.7/dist-packages/gazebo_msgs/srv/_GetLinkProperties.py"
+  "/home/pan/Documents/arm_ws/devel/lib/python2.7/dist-packages/gazebo_msgs/srv/_ApplyJointEffort.py"
+  "/home/pan/Documents/arm_ws/devel/lib/python2.7/dist-packages/gazebo_msgs/srv/_ApplyBodyWrench.py"
+  "/home/pan/Documents/arm_ws/devel/lib/python2.7/dist-packages/gazebo_msgs/srv/_GetPhysicsProperties.py"
+  "/home/pan/Documents/arm_ws/devel/lib/python2.7/dist-packages/gazebo_msgs/srv/_SetLinkProperties.py"
+  "/home/pan/Documents/arm_ws/devel/lib/python2.7/dist-packages/gazebo_msgs/srv/_SetJointProperties.py"
+  "/home/pan/Documents/arm_ws/devel/lib/python2.7/dist-packages/gazebo_msgs/srv/_SetModelState.py"
+  "/home/pan/Documents/arm_ws/devel/lib/python2.7/dist-packages/gazebo_msgs/srv/_BodyRequest.py"
+  "/home/pan/Documents/arm_ws/devel/lib/python2.7/dist-packages/gazebo_msgs/srv/_GetLightProperties.py"
+  "/home/pan/Documents/arm_ws/devel/lib/python2.7/dist-packages/gazebo_msgs/srv/_DeleteLight.py"
+  "/home/pan/Documents/arm_ws/devel/lib/python2.7/dist-packages/gazebo_msgs/srv/_GetModelProperties.py"
+  "/home/pan/Documents/arm_ws/devel/lib/python2.7/dist-packages/gazebo_msgs/srv/_SpawnModel.py"
+  "/home/pan/Documents/arm_ws/devel/lib/python2.7/dist-packages/gazebo_msgs/srv/_SetLightProperties.py"
+  "/home/pan/Documents/arm_ws/devel/lib/python2.7/dist-packages/gazebo_msgs/srv/_SetJointTrajectory.py"
+  "/home/pan/Documents/arm_ws/devel/lib/python2.7/dist-packages/gazebo_msgs/srv/_GetWorldProperties.py"
+  "/home/pan/Documents/arm_ws/devel/lib/python2.7/dist-packages/gazebo_msgs/srv/_SetModelConfiguration.py"
+  "/home/pan/Documents/arm_ws/devel/lib/python2.7/dist-packages/gazebo_msgs/srv/_GetJointProperties.py"
+  "/home/pan/Documents/arm_ws/devel/lib/python2.7/dist-packages/gazebo_msgs/srv/_GetLinkState.py"
+  "/home/pan/Documents/arm_ws/devel/lib/python2.7/dist-packages/gazebo_msgs/srv/_GetModelState.py"
+  "/home/pan/Documents/arm_ws/devel/lib/python2.7/dist-packages/gazebo_msgs/srv/_SetLinkState.py"
+  "/home/pan/Documents/arm_ws/devel/lib/python2.7/dist-packages/gazebo_msgs/srv/_DeleteModel.py"
+  "/home/pan/Documents/arm_ws/devel/lib/python2.7/dist-packages/gazebo_msgs/msg/__init__.py"
+  "/home/pan/Documents/arm_ws/devel/lib/python2.7/dist-packages/gazebo_msgs/srv/__init__.py"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang )
+  include(CMakeFiles/gazebo_msgs_generate_messages_py.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

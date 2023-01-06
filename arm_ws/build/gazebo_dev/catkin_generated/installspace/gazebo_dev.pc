@@ -1,0 +1,8 @@
+prefix=/home/pan/Documents/arm_ws/install
+
+Name: gazebo_dev
+Description: Description of gazebo_dev
+Version: 2.8.3
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

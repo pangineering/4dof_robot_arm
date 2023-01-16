@@ -10,6 +10,9 @@ ROS for 4-dof robot arm simulation
 ## Diagram of the 4DOF robot arm
 ![Robot Diagram](robot_diagram.png)
 
+## Screenshot
+![Robot Moveit](moveit.png)
+
 ## Installation
 
 

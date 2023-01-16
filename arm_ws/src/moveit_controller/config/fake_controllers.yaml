@@ -1,0 +1,15 @@
+controller_list:
+  - name: fake_4dof_arm_controller
+    type: $(arg fake_execution_type)
+    joints:
+      - base_arm_joint
+      - base_arm_joint_2
+      - base_arm_joint_4
+      - base_arm_joint_6
+  - name: fake_tool_controller
+    type: $(arg fake_execution_type)
+    joints:
+      []
+initial:  # Define initial robot poses.
+  - group: 4dof_arm
+    pose: start

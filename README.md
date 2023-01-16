@@ -12,6 +12,7 @@ ROS for 4-dof robot arm simulation
 
 ## Screenshot
 ![Robot Moveit](moveit.png)
+![Robot RVIZ demo](rviz_demo.png)
 
 ## Installation
 

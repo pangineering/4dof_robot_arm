@@ -128,13 +128,16 @@ For more examples, please refer to the [Documentation](https://github.com/pangin
 <!-- ROADMAP -->
 ## Roadmap
 
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-    - [ ] Chinese
-    - [ ] Spanish
+- [x] Create a simple robot arm model
+- [x] Add Joint publisher packages to the workspace
+- [x] Install Moveit
+- [x] Create a package with Moveit
+- [ ] Create robot worlds:
+    - [ ] Stacking can
+    - [ ] Stacking block
+    - [ ] Factory
+- [ ] Add an industrial robot arm
+
 
 See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
 

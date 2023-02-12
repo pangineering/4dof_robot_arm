@@ -7,4 +7,10 @@
 # new environment variables
 
 # modified environment variables
-export PWD='/home/pan/Documents/arm_ws/build'
+export CMAKE_PREFIX_PATH="/home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/devel:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH="/home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/devel/lib:$LD_LIBRARY_PATH"
+export PATH='/opt/ros/melodic/bin:/home/pan/anaconda3/bin:/home/pan/anaconda3/condabin:/home/pan/.nvm/versions/node/v16.19.0/bin:/home/pan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'
+export PKG_CONFIG_PATH="/home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
+export PWD='/home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/build'
+export PYTHONPATH="/home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/devel/lib/python2.7/dist-packages:$PYTHONPATH"
+export ROS_PACKAGE_PATH="/home/pan/Documents/arm_ws/src:/home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/src:$ROS_PACKAGE_PATH"

@@ -1,4 +1,4 @@
-prefix=/home/pan/Documents/arm_ws/install
+prefix=/home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/install
 
 Name: gazebo_msgs
 Description: Description of gazebo_msgs

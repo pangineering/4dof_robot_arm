@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/gazebo_ros_paths_plugin.dir/src/gazebo_ros_paths_plugin.cpp.o"
-  "/home/pan/Documents/arm_ws/devel/lib/libgazebo_ros_paths_plugin.pdb"
-  "/home/pan/Documents/arm_ws/devel/lib/libgazebo_ros_paths_plugin.so"
+  "/home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/devel/lib/libgazebo_ros_paths_plugin.pdb"
+  "/home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/devel/lib/libgazebo_ros_paths_plugin.so"
 )
 
 # Per-language clean rules from dependency scanning.

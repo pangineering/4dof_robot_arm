@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pan/Documents/arm_ws/src
+CMAKE_SOURCE_DIR = /home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pan/Documents/arm_ws/build
+CMAKE_BINARY_DIR = /home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/build
 
 # Utility rule file for run_tests_joint_state_publisher.
 
@@ -63,10 +63,10 @@ joint_state_publisher/CMakeFiles/run_tests_joint_state_publisher.dir/build: run_
 .PHONY : joint_state_publisher/CMakeFiles/run_tests_joint_state_publisher.dir/build
 
 joint_state_publisher/CMakeFiles/run_tests_joint_state_publisher.dir/clean:
-	cd /home/pan/Documents/arm_ws/build/joint_state_publisher && $(CMAKE_COMMAND) -P CMakeFiles/run_tests_joint_state_publisher.dir/cmake_clean.cmake
+	cd /home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/build/joint_state_publisher && $(CMAKE_COMMAND) -P CMakeFiles/run_tests_joint_state_publisher.dir/cmake_clean.cmake
 .PHONY : joint_state_publisher/CMakeFiles/run_tests_joint_state_publisher.dir/clean
 
 joint_state_publisher/CMakeFiles/run_tests_joint_state_publisher.dir/depend:
-	cd /home/pan/Documents/arm_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pan/Documents/arm_ws/src /home/pan/Documents/arm_ws/src/joint_state_publisher /home/pan/Documents/arm_ws/build /home/pan/Documents/arm_ws/build/joint_state_publisher /home/pan/Documents/arm_ws/build/joint_state_publisher/CMakeFiles/run_tests_joint_state_publisher.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/src /home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/src/joint_state_publisher /home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/build /home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/build/joint_state_publisher /home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/build/joint_state_publisher/CMakeFiles/run_tests_joint_state_publisher.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : joint_state_publisher/CMakeFiles/run_tests_joint_state_publisher.dir/depend
 

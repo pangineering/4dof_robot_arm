@@ -1,8 +1,8 @@
-# Install script for directory: /home/pan/Documents/arm_ws/src/gazebo_ros/test
+# Install script for directory: /home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/src/gazebo_ros/test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/pan/Documents/arm_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,6 +38,6 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gazebo_ros/test" TYPE PROGRAM FILES "/home/pan/Documents/arm_ws/src/gazebo_ros/test/ros_network/ros_api_checker")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gazebo_ros/test" TYPE PROGRAM FILES "/home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/src/gazebo_ros/test/ros_network/ros_api_checker")
 endif()
 

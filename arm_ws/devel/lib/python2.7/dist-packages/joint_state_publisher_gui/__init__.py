@@ -6,7 +6,7 @@ from os import path as os_path
 from pkgutil import extend_path
 from sys import path as sys_path
 
-__extended_path = '/home/pan/Documents/arm_ws/src/joint_state_publisher_gui/src'.split(';')
+__extended_path = '/home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/src/joint_state_publisher_gui/src'.split(';')
 for p in reversed(__extended_path):
     sys_path.insert(0, p)
     del p

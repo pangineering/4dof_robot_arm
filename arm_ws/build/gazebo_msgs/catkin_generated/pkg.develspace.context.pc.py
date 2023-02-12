@@ -1,8 +1,8 @@
 # generated from catkin/cmake/template/pkg.context.pc.in
 CATKIN_PACKAGE_PREFIX = ""
-PROJECT_PKG_CONFIG_INCLUDE_DIRS = "/home/pan/Documents/arm_ws/devel/include".split(';') if "/home/pan/Documents/arm_ws/devel/include" != "" else []
+PROJECT_PKG_CONFIG_INCLUDE_DIRS = "/home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/devel/include".split(';') if "/home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/devel/include" != "" else []
 PROJECT_CATKIN_DEPENDS = "message_runtime;std_msgs;trajectory_msgs;geometry_msgs;sensor_msgs;std_srvs".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "gazebo_msgs"
-PROJECT_SPACE_DIR = "/home/pan/Documents/arm_ws/devel"
+PROJECT_SPACE_DIR = "/home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/devel"
 PROJECT_VERSION = "2.8.3"

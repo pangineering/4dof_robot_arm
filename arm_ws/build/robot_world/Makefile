@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pan/Documents/arm_ws/src
+CMAKE_SOURCE_DIR = /home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pan/Documents/arm_ws/build
+CMAKE_BINARY_DIR = /home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,14 +137,14 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/pan/Documents/arm_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/pan/Documents/arm_ws/build/CMakeFiles /home/pan/Documents/arm_ws/build/robot_world/CMakeFiles/progress.marks
-	cd /home/pan/Documents/arm_ws/build && $(MAKE) -f CMakeFiles/Makefile2 robot_world/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pan/Documents/arm_ws/build/CMakeFiles 0
+	cd /home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/build/CMakeFiles /home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/build/robot_world/CMakeFiles/progress.marks
+	cd /home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/build && $(MAKE) -f CMakeFiles/Makefile2 robot_world/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/pan/Documents/arm_ws/build && $(MAKE) -f CMakeFiles/Makefile2 robot_world/clean
+	cd /home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/build && $(MAKE) -f CMakeFiles/Makefile2 robot_world/clean
 .PHONY : clean
 
 # The main clean target
@@ -154,17 +154,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/pan/Documents/arm_ws/build && $(MAKE) -f CMakeFiles/Makefile2 robot_world/preinstall
+	cd /home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/build && $(MAKE) -f CMakeFiles/Makefile2 robot_world/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/pan/Documents/arm_ws/build && $(MAKE) -f CMakeFiles/Makefile2 robot_world/preinstall
+	cd /home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/build && $(MAKE) -f CMakeFiles/Makefile2 robot_world/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/pan/Documents/arm_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Help Target
@@ -191,6 +191,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/pan/Documents/arm_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

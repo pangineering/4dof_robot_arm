@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "gazebo_dev"
-PROJECT_SPACE_DIR = "/home/pan/Documents/arm_ws/devel"
+PROJECT_SPACE_DIR = "/home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/devel"
 PROJECT_VERSION = "2.8.3"

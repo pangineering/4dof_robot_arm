@@ -1,8 +1,8 @@
-# Install script for directory: /home/pan/Documents/arm_ws/src/gazebo_dev
+# Install script for directory: /home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/src/gazebo_dev
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/pan/Documents/arm_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,21 +38,21 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/pan/Documents/arm_ws/build/gazebo_dev/catkin_generated/installspace/gazebo_dev.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/build/gazebo_dev/catkin_generated/installspace/gazebo_dev.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gazebo_dev/cmake" TYPE FILE FILES "/home/pan/Documents/arm_ws/src/gazebo_dev/cmake/gazebo_dev-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gazebo_dev/cmake" TYPE FILE FILES "/home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/src/gazebo_dev/cmake/gazebo_dev-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gazebo_dev/cmake" TYPE FILE FILES
-    "/home/pan/Documents/arm_ws/build/gazebo_dev/catkin_generated/installspace/gazebo_devConfig.cmake"
-    "/home/pan/Documents/arm_ws/build/gazebo_dev/catkin_generated/installspace/gazebo_devConfig-version.cmake"
+    "/home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/build/gazebo_dev/catkin_generated/installspace/gazebo_devConfig.cmake"
+    "/home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/build/gazebo_dev/catkin_generated/installspace/gazebo_devConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gazebo_dev" TYPE FILE FILES "/home/pan/Documents/arm_ws/src/gazebo_dev/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gazebo_dev" TYPE FILE FILES "/home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/src/gazebo_dev/package.xml")
 endif()
 

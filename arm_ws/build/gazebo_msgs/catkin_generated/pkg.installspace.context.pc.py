@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "${prefix}/include".split(';') if "${prefix}/i
 PROJECT_CATKIN_DEPENDS = "message_runtime;std_msgs;trajectory_msgs;geometry_msgs;sensor_msgs;std_srvs".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "gazebo_msgs"
-PROJECT_SPACE_DIR = "/home/pan/Documents/arm_ws/install"
+PROJECT_SPACE_DIR = "/home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/install"
 PROJECT_VERSION = "2.8.3"

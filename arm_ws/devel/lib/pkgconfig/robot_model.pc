@@ -1,4 +1,4 @@
-prefix=/home/pan/Documents/arm_ws/devel
+prefix=/home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/devel
 
 Name: robot_model
 Description: Description of robot_model

@@ -1,8 +1,8 @@
-# Install script for directory: /home/pan/Documents/arm_ws/src/joint_state_publisher_gui
+# Install script for directory: /home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/src/joint_state_publisher_gui
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/pan/Documents/arm_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,25 +38,25 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/pan/Documents/arm_ws/build/joint_state_publisher_gui/catkin_generated/installspace/joint_state_publisher_gui.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/build/joint_state_publisher_gui/catkin_generated/installspace/joint_state_publisher_gui.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/joint_state_publisher_gui/cmake" TYPE FILE FILES
-    "/home/pan/Documents/arm_ws/build/joint_state_publisher_gui/catkin_generated/installspace/joint_state_publisher_guiConfig.cmake"
-    "/home/pan/Documents/arm_ws/build/joint_state_publisher_gui/catkin_generated/installspace/joint_state_publisher_guiConfig-version.cmake"
+    "/home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/build/joint_state_publisher_gui/catkin_generated/installspace/joint_state_publisher_guiConfig.cmake"
+    "/home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/build/joint_state_publisher_gui/catkin_generated/installspace/joint_state_publisher_guiConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/joint_state_publisher_gui" TYPE FILE FILES "/home/pan/Documents/arm_ws/src/joint_state_publisher_gui/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/joint_state_publisher_gui" TYPE FILE FILES "/home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/src/joint_state_publisher_gui/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/pan/Documents/arm_ws/build/joint_state_publisher_gui/catkin_generated/safe_execute_install.cmake")
+  include("/home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/build/joint_state_publisher_gui/catkin_generated/safe_execute_install.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/joint_state_publisher_gui" TYPE PROGRAM FILES "/home/pan/Documents/arm_ws/build/joint_state_publisher_gui/catkin_generated/installspace/joint_state_publisher_gui")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/joint_state_publisher_gui" TYPE PROGRAM FILES "/home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/build/joint_state_publisher_gui/catkin_generated/installspace/joint_state_publisher_gui")
 endif()
 

@@ -1,8 +1,8 @@
-prefix=/home/pan/Documents/arm_ws/devel
+prefix=/home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/devel
 
 Name: gazebo_ros_control
 Description: Description of gazebo_ros_control
 Version: 2.8.3
-Cflags: -I/home/pan/Documents/arm_ws/src/gazebo_ros_control/include
+Cflags: -I/home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/src/gazebo_ros_control/include
 Libs: -L${prefix}/lib -lgazebo_ros_control -ldefault_robot_hw_sim
 Requires: roscpp std_msgs controller_manager control_toolbox pluginlib hardware_interface transmission_interface joint_limits_interface urdf angles

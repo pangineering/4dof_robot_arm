@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "joint_state_publisher_gui"
-PROJECT_SPACE_DIR = "/home/pan/Documents/arm_ws/install"
+PROJECT_SPACE_DIR = "/home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/install"
 PROJECT_VERSION = "1.15.1"

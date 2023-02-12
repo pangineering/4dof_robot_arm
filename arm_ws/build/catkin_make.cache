@@ -1,2 +1,2 @@
-gazebo_dev:gazebo_msgs:gazebo_ros:gazebo_ros_control:joint_state_publisher:joint_state_publisher_gui:robot_model:robot_world
--DCATKIN_DEVEL_PREFIX=/home/pan/Documents/arm_ws/devel -DCMAKE_INSTALL_PREFIX=/home/pan/Documents/arm_ws/install -G Unix Makefiles
+gazebo_dev:gazebo_msgs:gazebo_ros:gazebo_ros_control:joint_state_publisher:joint_state_publisher_gui:moveit_commander_python:moveit_controller:robot_model:robot_world
+-DCATKIN_DEVEL_PREFIX=/home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/devel -DCMAKE_INSTALL_PREFIX=/home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/install -G Unix Makefiles

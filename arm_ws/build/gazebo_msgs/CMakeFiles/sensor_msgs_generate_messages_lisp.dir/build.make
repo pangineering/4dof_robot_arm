@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pan/Documents/arm_ws/src
+CMAKE_SOURCE_DIR = /home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pan/Documents/arm_ws/build
+CMAKE_BINARY_DIR = /home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/build
 
 # Utility rule file for sensor_msgs_generate_messages_lisp.
 
@@ -63,10 +63,10 @@ gazebo_msgs/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build: sensor_msgs
 .PHONY : gazebo_msgs/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build
 
 gazebo_msgs/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/clean:
-	cd /home/pan/Documents/arm_ws/build/gazebo_msgs && $(CMAKE_COMMAND) -P CMakeFiles/sensor_msgs_generate_messages_lisp.dir/cmake_clean.cmake
+	cd /home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/build/gazebo_msgs && $(CMAKE_COMMAND) -P CMakeFiles/sensor_msgs_generate_messages_lisp.dir/cmake_clean.cmake
 .PHONY : gazebo_msgs/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/clean
 
 gazebo_msgs/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/depend:
-	cd /home/pan/Documents/arm_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pan/Documents/arm_ws/src /home/pan/Documents/arm_ws/src/gazebo_msgs /home/pan/Documents/arm_ws/build /home/pan/Documents/arm_ws/build/gazebo_msgs /home/pan/Documents/arm_ws/build/gazebo_msgs/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/src /home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/src/gazebo_msgs /home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/build /home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/build/gazebo_msgs /home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/build/gazebo_msgs/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : gazebo_msgs/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/depend
 

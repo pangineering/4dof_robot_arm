@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pan/Documents/arm_ws/src
+CMAKE_SOURCE_DIR = /home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pan/Documents/arm_ws/build
+CMAKE_BINARY_DIR = /home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/build
 
 # Utility rule file for run_tests_joint_state_publisher_rostest_test_test_slash_fiction.launch.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/pan/Documents/arm_ws/build
 include joint_state_publisher/CMakeFiles/run_tests_joint_state_publisher_rostest_test_test_slash_fiction.launch.dir/progress.make
 
 joint_state_publisher/CMakeFiles/run_tests_joint_state_publisher_rostest_test_test_slash_fiction.launch:
-	cd /home/pan/Documents/arm_ws/build/joint_state_publisher && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/catkin/cmake/test/run_tests.py /home/pan/Documents/arm_ws/build/test_results/joint_state_publisher/rostest-test_test_slash_fiction.xml "/usr/bin/python2 /opt/ros/melodic/share/rostest/cmake/../../../bin/rostest --pkgdir=/home/pan/Documents/arm_ws/src/joint_state_publisher --package=joint_state_publisher --results-filename test_test_slash_fiction.xml --results-base-dir \"/home/pan/Documents/arm_ws/build/test_results\" /home/pan/Documents/arm_ws/src/joint_state_publisher/test/test_slash_fiction.launch "
+	cd /home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/build/joint_state_publisher && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/catkin/cmake/test/run_tests.py /home/pan/Documents/arm_ws/build/test_results/joint_state_publisher/rostest-test_test_slash_fiction.xml "/usr/bin/python2 /opt/ros/melodic/share/rostest/cmake/../../../bin/rostest --pkgdir=/home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/src/joint_state_publisher --package=joint_state_publisher --results-filename test_test_slash_fiction.xml --results-base-dir \"/home/pan/Documents/arm_ws/build/test_results\" /home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/src/joint_state_publisher/test/test_slash_fiction.launch "
 
 run_tests_joint_state_publisher_rostest_test_test_slash_fiction.launch: joint_state_publisher/CMakeFiles/run_tests_joint_state_publisher_rostest_test_test_slash_fiction.launch
 run_tests_joint_state_publisher_rostest_test_test_slash_fiction.launch: joint_state_publisher/CMakeFiles/run_tests_joint_state_publisher_rostest_test_test_slash_fiction.launch.dir/build.make
@@ -67,10 +67,10 @@ joint_state_publisher/CMakeFiles/run_tests_joint_state_publisher_rostest_test_te
 .PHONY : joint_state_publisher/CMakeFiles/run_tests_joint_state_publisher_rostest_test_test_slash_fiction.launch.dir/build
 
 joint_state_publisher/CMakeFiles/run_tests_joint_state_publisher_rostest_test_test_slash_fiction.launch.dir/clean:
-	cd /home/pan/Documents/arm_ws/build/joint_state_publisher && $(CMAKE_COMMAND) -P CMakeFiles/run_tests_joint_state_publisher_rostest_test_test_slash_fiction.launch.dir/cmake_clean.cmake
+	cd /home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/build/joint_state_publisher && $(CMAKE_COMMAND) -P CMakeFiles/run_tests_joint_state_publisher_rostest_test_test_slash_fiction.launch.dir/cmake_clean.cmake
 .PHONY : joint_state_publisher/CMakeFiles/run_tests_joint_state_publisher_rostest_test_test_slash_fiction.launch.dir/clean
 
 joint_state_publisher/CMakeFiles/run_tests_joint_state_publisher_rostest_test_test_slash_fiction.launch.dir/depend:
-	cd /home/pan/Documents/arm_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pan/Documents/arm_ws/src /home/pan/Documents/arm_ws/src/joint_state_publisher /home/pan/Documents/arm_ws/build /home/pan/Documents/arm_ws/build/joint_state_publisher /home/pan/Documents/arm_ws/build/joint_state_publisher/CMakeFiles/run_tests_joint_state_publisher_rostest_test_test_slash_fiction.launch.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/src /home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/src/joint_state_publisher /home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/build /home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/build/joint_state_publisher /home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/build/joint_state_publisher/CMakeFiles/run_tests_joint_state_publisher_rostest_test_test_slash_fiction.launch.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : joint_state_publisher/CMakeFiles/run_tests_joint_state_publisher_rostest_test_test_slash_fiction.launch.dir/depend
 

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pan/Documents/arm_ws/src
+CMAKE_SOURCE_DIR = /home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pan/Documents/arm_ws/build
+CMAKE_BINARY_DIR = /home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/build
 
 # Utility rule file for clean_test_results_gazebo_ros.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/pan/Documents/arm_ws/build
 include gazebo_ros/test/CMakeFiles/clean_test_results_gazebo_ros.dir/progress.make
 
 gazebo_ros/test/CMakeFiles/clean_test_results_gazebo_ros:
-	cd /home/pan/Documents/arm_ws/build/gazebo_ros/test && /usr/bin/python2 /opt/ros/melodic/share/catkin/cmake/test/remove_test_results.py /home/pan/Documents/arm_ws/build/test_results/gazebo_ros
+	cd /home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/build/gazebo_ros/test && /usr/bin/python2 /opt/ros/melodic/share/catkin/cmake/test/remove_test_results.py /home/pan/Documents/arm_ws/build/test_results/gazebo_ros
 
 clean_test_results_gazebo_ros: gazebo_ros/test/CMakeFiles/clean_test_results_gazebo_ros
 clean_test_results_gazebo_ros: gazebo_ros/test/CMakeFiles/clean_test_results_gazebo_ros.dir/build.make
@@ -67,10 +67,10 @@ gazebo_ros/test/CMakeFiles/clean_test_results_gazebo_ros.dir/build: clean_test_r
 .PHONY : gazebo_ros/test/CMakeFiles/clean_test_results_gazebo_ros.dir/build
 
 gazebo_ros/test/CMakeFiles/clean_test_results_gazebo_ros.dir/clean:
-	cd /home/pan/Documents/arm_ws/build/gazebo_ros/test && $(CMAKE_COMMAND) -P CMakeFiles/clean_test_results_gazebo_ros.dir/cmake_clean.cmake
+	cd /home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/build/gazebo_ros/test && $(CMAKE_COMMAND) -P CMakeFiles/clean_test_results_gazebo_ros.dir/cmake_clean.cmake
 .PHONY : gazebo_ros/test/CMakeFiles/clean_test_results_gazebo_ros.dir/clean
 
 gazebo_ros/test/CMakeFiles/clean_test_results_gazebo_ros.dir/depend:
-	cd /home/pan/Documents/arm_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pan/Documents/arm_ws/src /home/pan/Documents/arm_ws/src/gazebo_ros/test /home/pan/Documents/arm_ws/build /home/pan/Documents/arm_ws/build/gazebo_ros/test /home/pan/Documents/arm_ws/build/gazebo_ros/test/CMakeFiles/clean_test_results_gazebo_ros.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/src /home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/src/gazebo_ros/test /home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/build /home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/build/gazebo_ros/test /home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/build/gazebo_ros/test/CMakeFiles/clean_test_results_gazebo_ros.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : gazebo_ros/test/CMakeFiles/clean_test_results_gazebo_ros.dir/depend
 

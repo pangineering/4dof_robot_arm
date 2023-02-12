@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/pan/Documents/arm_ws/src/gazebo_ros_control/src/gazebo_ros_control_plugin.cpp" "/home/pan/Documents/arm_ws/build/gazebo_ros_control/CMakeFiles/gazebo_ros_control.dir/src/gazebo_ros_control_plugin.cpp.o"
+  "/home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/src/gazebo_ros_control/src/gazebo_ros_control_plugin.cpp" "/home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/build/gazebo_ros_control/CMakeFiles/gazebo_ros_control.dir/src/gazebo_ros_control_plugin.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -20,7 +20,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/pan/Documents/arm_ws/src/gazebo_ros_control/include"
+  "/home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/src/gazebo_ros_control/include"
   "/opt/ros/melodic/include"
   "/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   "/usr/include/gazebo-11"

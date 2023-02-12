@@ -1,8 +1,8 @@
-# Install script for directory: /home/pan/Documents/arm_ws/src/robot_world
+# Install script for directory: /home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/src/robot_world
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/pan/Documents/arm_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/pan/Documents/arm_ws/build/robot_world/catkin_generated/installspace/robot_world.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/build/robot_world/catkin_generated/installspace/robot_world.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_world/cmake" TYPE FILE FILES
-    "/home/pan/Documents/arm_ws/build/robot_world/catkin_generated/installspace/robot_worldConfig.cmake"
-    "/home/pan/Documents/arm_ws/build/robot_world/catkin_generated/installspace/robot_worldConfig-version.cmake"
+    "/home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/build/robot_world/catkin_generated/installspace/robot_worldConfig.cmake"
+    "/home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/build/robot_world/catkin_generated/installspace/robot_worldConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_world" TYPE FILE FILES "/home/pan/Documents/arm_ws/src/robot_world/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_world" TYPE FILE FILES "/home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/src/robot_world/package.xml")
 endif()
 

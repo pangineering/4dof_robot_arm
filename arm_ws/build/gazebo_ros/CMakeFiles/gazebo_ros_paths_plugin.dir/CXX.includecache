@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/pan/Documents/arm_ws/src/gazebo_ros/src/gazebo_ros_paths_plugin.cpp
+/home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/src/gazebo_ros/src/gazebo_ros_paths_plugin.cpp
 gazebo/common/SystemPaths.hh
 -
 gazebo/common/Plugin.hh

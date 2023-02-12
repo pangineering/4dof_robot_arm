@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pan/Documents/arm_ws/src
+CMAKE_SOURCE_DIR = /home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pan/Documents/arm_ws/build
+CMAKE_BINARY_DIR = /home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,14 +137,14 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/pan/Documents/arm_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/pan/Documents/arm_ws/build/CMakeFiles /home/pan/Documents/arm_ws/build/gazebo_ros/test/CMakeFiles/progress.marks
-	cd /home/pan/Documents/arm_ws/build && $(MAKE) -f CMakeFiles/Makefile2 gazebo_ros/test/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pan/Documents/arm_ws/build/CMakeFiles 0
+	cd /home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/build/CMakeFiles /home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/build/gazebo_ros/test/CMakeFiles/progress.marks
+	cd /home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/build && $(MAKE) -f CMakeFiles/Makefile2 gazebo_ros/test/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/pan/Documents/arm_ws/build && $(MAKE) -f CMakeFiles/Makefile2 gazebo_ros/test/clean
+	cd /home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/build && $(MAKE) -f CMakeFiles/Makefile2 gazebo_ros/test/clean
 .PHONY : clean
 
 # The main clean target
@@ -154,22 +154,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/pan/Documents/arm_ws/build && $(MAKE) -f CMakeFiles/Makefile2 gazebo_ros/test/preinstall
+	cd /home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/build && $(MAKE) -f CMakeFiles/Makefile2 gazebo_ros/test/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/pan/Documents/arm_ws/build && $(MAKE) -f CMakeFiles/Makefile2 gazebo_ros/test/preinstall
+	cd /home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/build && $(MAKE) -f CMakeFiles/Makefile2 gazebo_ros/test/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/pan/Documents/arm_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 gazebo_ros/test/CMakeFiles/run_tests_gazebo_ros_rostest_test_ros_network_ros_network_disabled.test.dir/rule:
-	cd /home/pan/Documents/arm_ws/build && $(MAKE) -f CMakeFiles/Makefile2 gazebo_ros/test/CMakeFiles/run_tests_gazebo_ros_rostest_test_ros_network_ros_network_disabled.test.dir/rule
+	cd /home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/build && $(MAKE) -f CMakeFiles/Makefile2 gazebo_ros/test/CMakeFiles/run_tests_gazebo_ros_rostest_test_ros_network_ros_network_disabled.test.dir/rule
 .PHONY : gazebo_ros/test/CMakeFiles/run_tests_gazebo_ros_rostest_test_ros_network_ros_network_disabled.test.dir/rule
 
 # Convenience name for target.
@@ -179,12 +179,12 @@ run_tests_gazebo_ros_rostest_test_ros_network_ros_network_disabled.test: gazebo_
 
 # fast build rule for target.
 run_tests_gazebo_ros_rostest_test_ros_network_ros_network_disabled.test/fast:
-	cd /home/pan/Documents/arm_ws/build && $(MAKE) -f gazebo_ros/test/CMakeFiles/run_tests_gazebo_ros_rostest_test_ros_network_ros_network_disabled.test.dir/build.make gazebo_ros/test/CMakeFiles/run_tests_gazebo_ros_rostest_test_ros_network_ros_network_disabled.test.dir/build
+	cd /home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/build && $(MAKE) -f gazebo_ros/test/CMakeFiles/run_tests_gazebo_ros_rostest_test_ros_network_ros_network_disabled.test.dir/build.make gazebo_ros/test/CMakeFiles/run_tests_gazebo_ros_rostest_test_ros_network_ros_network_disabled.test.dir/build
 .PHONY : run_tests_gazebo_ros_rostest_test_ros_network_ros_network_disabled.test/fast
 
 # Convenience name for target.
 gazebo_ros/test/CMakeFiles/_run_tests_gazebo_ros.dir/rule:
-	cd /home/pan/Documents/arm_ws/build && $(MAKE) -f CMakeFiles/Makefile2 gazebo_ros/test/CMakeFiles/_run_tests_gazebo_ros.dir/rule
+	cd /home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/build && $(MAKE) -f CMakeFiles/Makefile2 gazebo_ros/test/CMakeFiles/_run_tests_gazebo_ros.dir/rule
 .PHONY : gazebo_ros/test/CMakeFiles/_run_tests_gazebo_ros.dir/rule
 
 # Convenience name for target.
@@ -194,12 +194,12 @@ _run_tests_gazebo_ros: gazebo_ros/test/CMakeFiles/_run_tests_gazebo_ros.dir/rule
 
 # fast build rule for target.
 _run_tests_gazebo_ros/fast:
-	cd /home/pan/Documents/arm_ws/build && $(MAKE) -f gazebo_ros/test/CMakeFiles/_run_tests_gazebo_ros.dir/build.make gazebo_ros/test/CMakeFiles/_run_tests_gazebo_ros.dir/build
+	cd /home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/build && $(MAKE) -f gazebo_ros/test/CMakeFiles/_run_tests_gazebo_ros.dir/build.make gazebo_ros/test/CMakeFiles/_run_tests_gazebo_ros.dir/build
 .PHONY : _run_tests_gazebo_ros/fast
 
 # Convenience name for target.
 gazebo_ros/test/CMakeFiles/_run_tests_gazebo_ros_rostest_test_ros_network_ros_network_disabled.test.dir/rule:
-	cd /home/pan/Documents/arm_ws/build && $(MAKE) -f CMakeFiles/Makefile2 gazebo_ros/test/CMakeFiles/_run_tests_gazebo_ros_rostest_test_ros_network_ros_network_disabled.test.dir/rule
+	cd /home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/build && $(MAKE) -f CMakeFiles/Makefile2 gazebo_ros/test/CMakeFiles/_run_tests_gazebo_ros_rostest_test_ros_network_ros_network_disabled.test.dir/rule
 .PHONY : gazebo_ros/test/CMakeFiles/_run_tests_gazebo_ros_rostest_test_ros_network_ros_network_disabled.test.dir/rule
 
 # Convenience name for target.
@@ -209,12 +209,12 @@ _run_tests_gazebo_ros_rostest_test_ros_network_ros_network_disabled.test: gazebo
 
 # fast build rule for target.
 _run_tests_gazebo_ros_rostest_test_ros_network_ros_network_disabled.test/fast:
-	cd /home/pan/Documents/arm_ws/build && $(MAKE) -f gazebo_ros/test/CMakeFiles/_run_tests_gazebo_ros_rostest_test_ros_network_ros_network_disabled.test.dir/build.make gazebo_ros/test/CMakeFiles/_run_tests_gazebo_ros_rostest_test_ros_network_ros_network_disabled.test.dir/build
+	cd /home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/build && $(MAKE) -f gazebo_ros/test/CMakeFiles/_run_tests_gazebo_ros_rostest_test_ros_network_ros_network_disabled.test.dir/build.make gazebo_ros/test/CMakeFiles/_run_tests_gazebo_ros_rostest_test_ros_network_ros_network_disabled.test.dir/build
 .PHONY : _run_tests_gazebo_ros_rostest_test_ros_network_ros_network_disabled.test/fast
 
 # Convenience name for target.
 gazebo_ros/test/CMakeFiles/clean_test_results_gazebo_ros.dir/rule:
-	cd /home/pan/Documents/arm_ws/build && $(MAKE) -f CMakeFiles/Makefile2 gazebo_ros/test/CMakeFiles/clean_test_results_gazebo_ros.dir/rule
+	cd /home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/build && $(MAKE) -f CMakeFiles/Makefile2 gazebo_ros/test/CMakeFiles/clean_test_results_gazebo_ros.dir/rule
 .PHONY : gazebo_ros/test/CMakeFiles/clean_test_results_gazebo_ros.dir/rule
 
 # Convenience name for target.
@@ -224,12 +224,12 @@ clean_test_results_gazebo_ros: gazebo_ros/test/CMakeFiles/clean_test_results_gaz
 
 # fast build rule for target.
 clean_test_results_gazebo_ros/fast:
-	cd /home/pan/Documents/arm_ws/build && $(MAKE) -f gazebo_ros/test/CMakeFiles/clean_test_results_gazebo_ros.dir/build.make gazebo_ros/test/CMakeFiles/clean_test_results_gazebo_ros.dir/build
+	cd /home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/build && $(MAKE) -f gazebo_ros/test/CMakeFiles/clean_test_results_gazebo_ros.dir/build.make gazebo_ros/test/CMakeFiles/clean_test_results_gazebo_ros.dir/build
 .PHONY : clean_test_results_gazebo_ros/fast
 
 # Convenience name for target.
 gazebo_ros/test/CMakeFiles/run_tests_gazebo_ros_rostest.dir/rule:
-	cd /home/pan/Documents/arm_ws/build && $(MAKE) -f CMakeFiles/Makefile2 gazebo_ros/test/CMakeFiles/run_tests_gazebo_ros_rostest.dir/rule
+	cd /home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/build && $(MAKE) -f CMakeFiles/Makefile2 gazebo_ros/test/CMakeFiles/run_tests_gazebo_ros_rostest.dir/rule
 .PHONY : gazebo_ros/test/CMakeFiles/run_tests_gazebo_ros_rostest.dir/rule
 
 # Convenience name for target.
@@ -239,12 +239,12 @@ run_tests_gazebo_ros_rostest: gazebo_ros/test/CMakeFiles/run_tests_gazebo_ros_ro
 
 # fast build rule for target.
 run_tests_gazebo_ros_rostest/fast:
-	cd /home/pan/Documents/arm_ws/build && $(MAKE) -f gazebo_ros/test/CMakeFiles/run_tests_gazebo_ros_rostest.dir/build.make gazebo_ros/test/CMakeFiles/run_tests_gazebo_ros_rostest.dir/build
+	cd /home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/build && $(MAKE) -f gazebo_ros/test/CMakeFiles/run_tests_gazebo_ros_rostest.dir/build.make gazebo_ros/test/CMakeFiles/run_tests_gazebo_ros_rostest.dir/build
 .PHONY : run_tests_gazebo_ros_rostest/fast
 
 # Convenience name for target.
 gazebo_ros/test/CMakeFiles/_run_tests_gazebo_ros_rostest_test_ros_network_ros_network_default.test.dir/rule:
-	cd /home/pan/Documents/arm_ws/build && $(MAKE) -f CMakeFiles/Makefile2 gazebo_ros/test/CMakeFiles/_run_tests_gazebo_ros_rostest_test_ros_network_ros_network_default.test.dir/rule
+	cd /home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/build && $(MAKE) -f CMakeFiles/Makefile2 gazebo_ros/test/CMakeFiles/_run_tests_gazebo_ros_rostest_test_ros_network_ros_network_default.test.dir/rule
 .PHONY : gazebo_ros/test/CMakeFiles/_run_tests_gazebo_ros_rostest_test_ros_network_ros_network_default.test.dir/rule
 
 # Convenience name for target.
@@ -254,12 +254,12 @@ _run_tests_gazebo_ros_rostest_test_ros_network_ros_network_default.test: gazebo_
 
 # fast build rule for target.
 _run_tests_gazebo_ros_rostest_test_ros_network_ros_network_default.test/fast:
-	cd /home/pan/Documents/arm_ws/build && $(MAKE) -f gazebo_ros/test/CMakeFiles/_run_tests_gazebo_ros_rostest_test_ros_network_ros_network_default.test.dir/build.make gazebo_ros/test/CMakeFiles/_run_tests_gazebo_ros_rostest_test_ros_network_ros_network_default.test.dir/build
+	cd /home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/build && $(MAKE) -f gazebo_ros/test/CMakeFiles/_run_tests_gazebo_ros_rostest_test_ros_network_ros_network_default.test.dir/build.make gazebo_ros/test/CMakeFiles/_run_tests_gazebo_ros_rostest_test_ros_network_ros_network_default.test.dir/build
 .PHONY : _run_tests_gazebo_ros_rostest_test_ros_network_ros_network_default.test/fast
 
 # Convenience name for target.
 gazebo_ros/test/CMakeFiles/run_tests_gazebo_ros.dir/rule:
-	cd /home/pan/Documents/arm_ws/build && $(MAKE) -f CMakeFiles/Makefile2 gazebo_ros/test/CMakeFiles/run_tests_gazebo_ros.dir/rule
+	cd /home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/build && $(MAKE) -f CMakeFiles/Makefile2 gazebo_ros/test/CMakeFiles/run_tests_gazebo_ros.dir/rule
 .PHONY : gazebo_ros/test/CMakeFiles/run_tests_gazebo_ros.dir/rule
 
 # Convenience name for target.
@@ -269,12 +269,12 @@ run_tests_gazebo_ros: gazebo_ros/test/CMakeFiles/run_tests_gazebo_ros.dir/rule
 
 # fast build rule for target.
 run_tests_gazebo_ros/fast:
-	cd /home/pan/Documents/arm_ws/build && $(MAKE) -f gazebo_ros/test/CMakeFiles/run_tests_gazebo_ros.dir/build.make gazebo_ros/test/CMakeFiles/run_tests_gazebo_ros.dir/build
+	cd /home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/build && $(MAKE) -f gazebo_ros/test/CMakeFiles/run_tests_gazebo_ros.dir/build.make gazebo_ros/test/CMakeFiles/run_tests_gazebo_ros.dir/build
 .PHONY : run_tests_gazebo_ros/fast
 
 # Convenience name for target.
 gazebo_ros/test/CMakeFiles/_run_tests_gazebo_ros_rostest.dir/rule:
-	cd /home/pan/Documents/arm_ws/build && $(MAKE) -f CMakeFiles/Makefile2 gazebo_ros/test/CMakeFiles/_run_tests_gazebo_ros_rostest.dir/rule
+	cd /home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/build && $(MAKE) -f CMakeFiles/Makefile2 gazebo_ros/test/CMakeFiles/_run_tests_gazebo_ros_rostest.dir/rule
 .PHONY : gazebo_ros/test/CMakeFiles/_run_tests_gazebo_ros_rostest.dir/rule
 
 # Convenience name for target.
@@ -284,12 +284,12 @@ _run_tests_gazebo_ros_rostest: gazebo_ros/test/CMakeFiles/_run_tests_gazebo_ros_
 
 # fast build rule for target.
 _run_tests_gazebo_ros_rostest/fast:
-	cd /home/pan/Documents/arm_ws/build && $(MAKE) -f gazebo_ros/test/CMakeFiles/_run_tests_gazebo_ros_rostest.dir/build.make gazebo_ros/test/CMakeFiles/_run_tests_gazebo_ros_rostest.dir/build
+	cd /home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/build && $(MAKE) -f gazebo_ros/test/CMakeFiles/_run_tests_gazebo_ros_rostest.dir/build.make gazebo_ros/test/CMakeFiles/_run_tests_gazebo_ros_rostest.dir/build
 .PHONY : _run_tests_gazebo_ros_rostest/fast
 
 # Convenience name for target.
 gazebo_ros/test/CMakeFiles/run_tests_gazebo_ros_rostest_test_ros_network_ros_network_default.test.dir/rule:
-	cd /home/pan/Documents/arm_ws/build && $(MAKE) -f CMakeFiles/Makefile2 gazebo_ros/test/CMakeFiles/run_tests_gazebo_ros_rostest_test_ros_network_ros_network_default.test.dir/rule
+	cd /home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/build && $(MAKE) -f CMakeFiles/Makefile2 gazebo_ros/test/CMakeFiles/run_tests_gazebo_ros_rostest_test_ros_network_ros_network_default.test.dir/rule
 .PHONY : gazebo_ros/test/CMakeFiles/run_tests_gazebo_ros_rostest_test_ros_network_ros_network_default.test.dir/rule
 
 # Convenience name for target.
@@ -299,7 +299,7 @@ run_tests_gazebo_ros_rostest_test_ros_network_ros_network_default.test: gazebo_r
 
 # fast build rule for target.
 run_tests_gazebo_ros_rostest_test_ros_network_ros_network_default.test/fast:
-	cd /home/pan/Documents/arm_ws/build && $(MAKE) -f gazebo_ros/test/CMakeFiles/run_tests_gazebo_ros_rostest_test_ros_network_ros_network_default.test.dir/build.make gazebo_ros/test/CMakeFiles/run_tests_gazebo_ros_rostest_test_ros_network_ros_network_default.test.dir/build
+	cd /home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/build && $(MAKE) -f gazebo_ros/test/CMakeFiles/run_tests_gazebo_ros_rostest_test_ros_network_ros_network_default.test.dir/build.make gazebo_ros/test/CMakeFiles/run_tests_gazebo_ros_rostest_test_ros_network_ros_network_default.test.dir/build
 .PHONY : run_tests_gazebo_ros_rostest_test_ros_network_ros_network_default.test/fast
 
 # Help Target
@@ -335,6 +335,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/pan/Documents/arm_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

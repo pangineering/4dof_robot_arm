@@ -1,8 +1,8 @@
-# Install script for directory: /home/pan/Documents/arm_ws/src/robot_model
+# Install script for directory: /home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/src/robot_model
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/pan/Documents/arm_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,26 +38,26 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/pan/Documents/arm_ws/build/robot_model/catkin_generated/installspace/robot_model.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/build/robot_model/catkin_generated/installspace/robot_model.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_model/cmake" TYPE FILE FILES
-    "/home/pan/Documents/arm_ws/build/robot_model/catkin_generated/installspace/robot_modelConfig.cmake"
-    "/home/pan/Documents/arm_ws/build/robot_model/catkin_generated/installspace/robot_modelConfig-version.cmake"
+    "/home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/build/robot_model/catkin_generated/installspace/robot_modelConfig.cmake"
+    "/home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/build/robot_model/catkin_generated/installspace/robot_modelConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_model" TYPE FILE FILES "/home/pan/Documents/arm_ws/src/robot_model/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_model" TYPE FILE FILES "/home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/src/robot_model/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_model" TYPE DIRECTORY FILES
-    "/home/pan/Documents/arm_ws/src/robot_model/meshes"
-    "/home/pan/Documents/arm_ws/src/robot_model/launch"
-    "/home/pan/Documents/arm_ws/src/robot_model/rviz"
-    "/home/pan/Documents/arm_ws/src/robot_model/urdf"
+    "/home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/src/robot_model/meshes"
+    "/home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/src/robot_model/launch"
+    "/home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/src/robot_model/rviz"
+    "/home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/src/robot_model/urdf"
     )
 endif()
 

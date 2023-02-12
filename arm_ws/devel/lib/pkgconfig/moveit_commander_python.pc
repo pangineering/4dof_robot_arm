@@ -1,0 +1,8 @@
+prefix=/home/pan/Documents/GitHub/4dof_robot_arm/arm_ws/devel
+
+Name: moveit_commander_python
+Description: Description of moveit_commander_python
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

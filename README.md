@@ -42,18 +42,13 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
+Implement computer vision: You could add a camera or depth sensor to your robot arm and use computer vision techniques to detect and track objects in the environment. This would allow your robot arm to perform more complex tasks, such as picking and placing objects in specific locations.
+Add more degrees of freedom: A 4DOF robot arm is a good starting point, but you could add more degrees of freedom to make the arm more versatile and flexible. This would allow the arm to reach and manipulate objects from different angles and orientations.
+Create a user interface: You could develop a graphical user interface (GUI) or command-line interface (CLI) to control your robot arm. This would make it easier for users to interact with the arm and perform tasks without needing to understand the underlying code or algorithms.
+Use machine learning: You could use machine learning techniques to train your robot arm to perform specific tasks, such as object recognition or path planning. This would enable your arm to learn and adapt to new situations, making it more useful in a variety of contexts.
+README:
 
-
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
-
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
-
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
-
-Use the `BLANK_README.md` to get started.
+The 4DOF robot arm is a project designed to create a robotic arm capable of moving in four different directions. Using the ROS Melodic framework and the MoveIt1 path planning library, this arm is capable of executing complex motion paths and avoiding obstacles and collisions. Further development of the project could include implementing computer vision, adding more degrees of freedom, creating a user interface, or using machine learning techniques.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -137,6 +132,17 @@ For more examples, please refer to the [Documentation](https://github.com/pangin
     - [ ] Stacking block
     - [ ] Factory
 - [ ] Add an industrial robot arm
+- [ ] Implement computer vision
+  - [ ] Add a camera or depth sensor
+  - [ ] Implement object detection algorithm
+- [ ] Create a user interface
+  - [ ] Choose a programming language and framework
+  - [ ] Design user interface layout
+- [ ] Use machine learning
+  - [ ] Collect and label training data
+  - [ ] Choose appropriate machine learning algorithm
+  - [ ] Implement and train the algorithm
+
 
 
 See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
